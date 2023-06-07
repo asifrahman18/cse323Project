@@ -47,11 +47,11 @@ public class OSDC extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(204, 255, 255));
         jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        LTiltle.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        LTiltle.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         LTiltle.setText("Banker's Algorithm");
         LTiltle.setVerifyInputWhenFocusTarget(false);
 
-        LTotalProcesses.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        LTotalProcesses.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         LTotalProcesses.setText("Total Processes");
 
         TfTotalProcesses.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -60,7 +60,7 @@ public class OSDC extends javax.swing.JFrame {
             }
         });
 
-        LTotalResources.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        LTotalResources.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         LTotalResources.setText("Total Resources");
 
         TfTotalResources.addActionListener(new java.awt.event.ActionListener() {
@@ -74,7 +74,7 @@ public class OSDC extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Comic Sans MS", 1, 12)); // NOI18N
         jButton1.setText("Enter");
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -88,7 +88,7 @@ public class OSDC extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(103, Short.MAX_VALUE)
+                .addContainerGap(113, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -98,13 +98,13 @@ public class OSDC extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(TfTotalProcesses, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(TfTotalResources, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(243, 243, 243))
+                        .addGap(234, 234, 234))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(LTiltle)
-                        .addGap(193, 193, 193))
+                        .addGap(211, 211, 211))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(249, 249, 249))))
+                        .addGap(255, 255, 255))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
